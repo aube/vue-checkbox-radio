@@ -36,17 +36,11 @@ Check out **[demo and styling examples](http://mariomka.github.io/vue-checkbox-r
 
 ## Install
 
-yarn
-
-```bash
-yarn add vue-checkbox-radio
-```
-
 npm
 
 
 ```bash
-npm install vue-checkbox-radio --save
+npm i http://github.com/aube/vue-checkbox-radio.git -S
 ```
 
 ## Setup
