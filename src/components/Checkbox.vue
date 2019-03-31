@@ -79,11 +79,17 @@
             event: 'input'
         },
 
+        data() {
+            return {
+                uid: 'checkbox-id-' + this._uid
+            };
+        },
+
         props: {
             id: {
                 type: String,
-                default: function () {
-                    return 'checkbox-id-' + this._uid;
+                default() {
+                    return this.uid;
                 },
             },
             name: {

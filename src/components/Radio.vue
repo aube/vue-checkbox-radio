@@ -76,11 +76,17 @@
             event: 'input'
         },
 
+        data() {
+            return {
+                uid: 'radio-id-' + this._uid
+            };
+        },
+
         props: {
             id: {
                 type: String,
-                default: function () {
-                    return 'radio-id-' + this._uid;
+                default() {
+                    return this.uid;
                 },
             },
             name: {
